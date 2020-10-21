@@ -46,9 +46,9 @@
 -- SELECT MOVIEID, Rating FROM movies
 -- WHERE Genre = 'Horror' OR Genre = 'Documentary';
 
--- SELECT AVG(IMDB_Score), MAX(IMDB_Score), MIN(IMDB_Score) FROM movies
+-- SELECT Rating, AVG(IMDB_Score), MAX(IMDB_Score), MIN(IMDB_Score) FROM movies
 -- GROUP BY Rating;
 
--- SELECT AVG(IMDB_Score), MAX(IMDB_Score), MIN(IMDB_Score) FROM movies
+-- SELECT Rating, AVG(IMDB_Score), MAX(IMDB_Score), MIN(IMDB_Score) FROM movies
 -- GROUP BY Rating
 -- HAVING COUNT(*) > 1;
