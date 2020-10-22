@@ -65,7 +65,7 @@
 ```
 -- UPDATE movies
 -- SET Rating = 'R'
--- WHERE MOVIEID = 3;
+-- WHERE Title = 'Starship Troopers';
 
 
 -- SELECT * FROM movies;
