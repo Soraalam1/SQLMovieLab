@@ -87,3 +87,18 @@
 -- GROUP BY Rating
 -- HAVING COUNT(*) > 1;
 ```
+
+## Bonus Query 1: Change the Naruto and Dragon Ball movie in the list genre from 'Animation' to 'Anime'.
+-- UPDATE movies
+-- SET Genre = 'Anime'
+-- WHERE MOVIEID > 6;
+
+-- SELECT * FROM movies;
+
+## Bonus Query 2: Show all movies with a rating that contains TV, such as TV-14 and TV-PG
+-- SELECT * FROM movies
+-- WHERE Rating LIKE 'TV-%';
+
+## Bonus Query 3: Find the average IMDB Score of movies rated PG, INCLUDING a movie rated TV-PG, don't include PG-13.
+-- SELECT AVG(IMDB_Score) FROM movies
+-- WHERE Rating LIKE '%PG';
